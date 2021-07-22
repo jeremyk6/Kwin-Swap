@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Replace window
+Comment=Add a menu to replace window by another one while keeping it's placement and size
+Icon=preferences-system-windows
+
+X-KDE-PluginInfo-Author=Jérémy Kalsron
+X-KDE-PluginInfo-Email=jeremy.kalsron@gmail.com
+X-KDE-PluginInfo-Name=replacewindow
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-License=GPL
+
+Type=Service
+X-KDE-ServiceTypes=KWin/Script
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
