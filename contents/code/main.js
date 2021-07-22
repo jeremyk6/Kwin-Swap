@@ -24,6 +24,7 @@ registerUserActionsMenu(function (client) {
                     client.minimized = true;
                     c.geometry = client.geometry
                     c.minimized = false
+                    workspace.activeClient = c
                 }
             })
     });
