@@ -21,8 +21,8 @@ registerUserActionsMenu(function (client) {
             items.push({
                 text: c.caption,
                 triggered: function () {
-                    client.minimized = true;
-                    c.geometry = client.geometry
+                    c.geometry = [client.geometry, client.geometry = c.geometry][0]
+                    client.minimized = c.minimized
                     c.minimized = false
                     workspace.activeClient = c
                 }
