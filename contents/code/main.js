@@ -17,7 +17,7 @@ registerUserActionsMenu(function (client) {
     "use strict";
     items = []
     workspace.clientList().forEach(function (c) {
-        if(c.caption != "Plasma")
+        if(c.specialWindow == false)
             items.push({
                 text: c.caption,
                 triggered: function () {
