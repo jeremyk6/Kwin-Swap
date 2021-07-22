@@ -6,6 +6,12 @@ A KWin script that add to each window a menu that enables replacing the window w
 
 # Installation
 
+## For the published version
+
+You can search for Replace window in KWin Scripts then install the published version. You can also download the latest .kwinscript file in Releases and install it with KWin Scripts → Install from file.
+
+## For the repo version (dev) :
+
 Download the repo, and in the same folder as metada.desktop do :
 ```bash
 plasmapkg2 --type=KWin/Script -i .
