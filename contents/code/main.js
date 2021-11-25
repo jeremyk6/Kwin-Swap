@@ -29,7 +29,7 @@ registerUserActionsMenu(function (client) {
             })
     });
     return {
-        text : "Replace window",
+        text : "Swap with",
         items : items
     }
 });
