@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Replace window
-Comment=Add a menu to replace window by another one while keeping it's placement and size
+Name=Swap
+Comment=Enable to swap two windows geometries. Useful if you have a specific windows layout that you don't want to break.
 Icon=preferences-system-windows
 
 X-KDE-PluginInfo-Author=Jérémy Kalsron
