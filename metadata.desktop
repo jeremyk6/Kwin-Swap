@@ -1,6 +1,8 @@
 [Desktop Entry]
 Name=Swap
+Name[nl]=Wisselen
 Comment=Enable to swap two windows geometries. Useful if you have a specific windows layout that you don't want to break.
+Comment[nl]=Schakel in om vensterafmetingen om te wisselen. Dit is handig als je een specifieke vensterindeling gebruikt en die niet wilt verstoren.
 Icon=preferences-system-windows
 
 X-KDE-PluginInfo-Author=Jérémy Kalsron
